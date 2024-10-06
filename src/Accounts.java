@@ -68,6 +68,8 @@ public class Accounts {
         throw new RuntimeException("Account Number is not Exist");
     }
 
+
+
     private  long generateAccountNumber() {
         try{
             connection.setCatalog("bank_management");
@@ -84,6 +86,8 @@ public class Accounts {
         }
        // return 10000100;
     }
+
+
 
     public boolean account_exist(String email) {
         String query = "select account_number from accounts where email = ?";
