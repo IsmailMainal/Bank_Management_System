@@ -9,7 +9,7 @@ private static final String url = "jdbc:mysql://127.0.0.1:3306/?user=root";
 
 private static final String username = "root";
 
-private static final String password = "Ismail@123";
+private static final String password = "YOUR DATABASE PASSWORD";
 
 public static void main(String[] args) {
     try {
